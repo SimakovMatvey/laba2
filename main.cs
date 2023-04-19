@@ -1,6 +1,9 @@
 class Program {
     static void Main(string[] args) {
-        Console.WriteLine("Введите B");
-        int b = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Введите * / + -");
+        string c = Console.ReadLine();
+
+        if (c == "+") a = a + b;
+        Console.WriteLine(a);
     }
 }
