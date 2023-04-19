@@ -3,7 +3,7 @@ class Program {
         Console.WriteLine("Введите * / + -");
         string c = Console.ReadLine();
 
-        if (c == "*") a = a * b;
+        if (c == "/") a = a / b;
         Console.WriteLine(a);
     }
 }
